@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</Form></title>
+
+    <link rel="stylesheet" type="text/css" href="Regis.css">
+
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container"> 
+        <h2>Registration Form</h2>
+        <div class="form-container"></div>
+        <form>
+
+            <div class="input-name">
+              <i class="fa fa-user-circle-o"></i>
+                <input type="text" placeholder="Name" class="name" required>
+
+                <span>
+                  <i class="fa fa-user-circle-o"></i>
+                    <input type="text" placeholder="User Name" class="name" required>
+                </span>
+             </div>
+
+             <div class="input-name">
+                <i class="fa fa-envelope email" ></i>
+                <input type="email" placeholder="Email" class="text-name">
+              </div>
+
+              <div class="input-name">
+                <i class="fa fa-lock lock" ></i>
+                <input type="password" placeholder="Password" class="text-name" required>
+              </div>
+
+              <div class="input-name">
+                <i class="fa fa-lock lock" ></i>
+                <input type="password" placeholder="Confirm Password" class="text-name" required>
+              </div>
+
+              <div class="input-name">
+                <input type="radio" class="radio-button" name="r1">
+                <label style="margin-right: 150px;">Male</label>
+
+                <input type="radio" class="radio-button" name="r1">
+                <label>Female</label>
+              </div>
+
+              <div class="input-name">
+               <select class="state">
+                <option>Select a State</option>
+                <option>Madhya Pradesh</option>
+                <option>Haryana</option>
+                <option>Maharashtra</option>
+                <option>Tamilanadu</option>
+                <option>Karnataka</option>
+              </select>
+              <div class="arrow"></div>
+
+              </div> 
+              <div class="input-name">
+               <input type="checkbox" id=" cb" class="check-button">
+               <label for="cb" class="check">I accept the terms and conditions</label>
+              </div>
+
+              <div class="input-name">
+                <input type="submit" class="button" value="Register">
+               
+               </div>
+                         
+        </form>
+    </div>
+</body>
+</html>
